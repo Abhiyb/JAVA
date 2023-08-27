@@ -9,6 +9,10 @@ class circle{
     {
         radius=r;
     }
+    circle(double r,String s)
+    {
+        radius=r;color=s;
+    }
     public void setradius(double radius)
     {
         this.radius=radius;
@@ -25,17 +29,14 @@ class circle{
     {
         return (22/7.0)*radius*radius;
     }
-    circle(double r,String s)
-    {
-        radius=r;color=s;
-    }
+    
 }
 public class Main
 {
 	public static void main(String[] args) {
 // 		System.out.println("Hello World");
-     circle obj=new circle(10);
-    //  obj.radius=10;
+          circle obj=new circle(10);
+        //  obj.radius=10;
     
      System.out.println(obj.getarea());
 	}
