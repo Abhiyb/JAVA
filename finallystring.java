@@ -2,6 +2,7 @@
 //==
 //.equals()
 //.startsWith()
+//.endsWith()
 //.contains()
 //======================================================
 //.compareToIgnoreCase()
